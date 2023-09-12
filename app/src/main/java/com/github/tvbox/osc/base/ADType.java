@@ -1,4 +1,4 @@
-package com.pocket.zxpa;
+package com.github.tvbox.osc.base;
 
 public class ADType {
 
