@@ -22,7 +22,7 @@ import com.p2p.P2PClass;
 
 import me.jessyan.autosize.AutoSizeConfig;
 import me.jessyan.autosize.unit.Subunits;
-
+import static com.zh.pocket.PocketSdk.initSDK;
 /**
  * @author pj567
  * @date :2020/12/17
@@ -33,7 +33,11 @@ public class App extends MultiDexApplication {
 
     private static P2PClass p;
     public static String burl;
-
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        initSDK(this, "xiaomi", "11723");
+        }
     @Override
     public void onCreate() {
         super.onCreate();
