@@ -182,7 +182,5 @@ dependencies {
     implementation (name: 'gdt_ad_sdk_230210', ext:'aar')
     implementation (name: 'ks_ad_sdk_230116', ext:'aar')
     implementation(name: 'pocket_ad_sdk_3.2.8', ext:'aar')
-    implementation 'com.squareup.okhttp3:okhttp:4.9.2'
-    implementation 'com.google.code.gson:gson:2.8.8' 
     implementation 'androidx.legacy:legacy-support-core-ui:1.0.0' 
 }
