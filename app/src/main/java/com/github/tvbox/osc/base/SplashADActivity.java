@@ -198,7 +198,7 @@ public class SplashADActivity extends Activity implements SplashADListener {
             if (mDisrupt) {
                 if (!ActivityFrontBackProcessor.toFront(getIntent())) {
                     Log.e("splash_ad", "back_2_front");
-                    startActivity(new Intent(this, MainActivity.class));
+                    startActivity(new Intent(this, BaseActivity.class));
                 }
                 finish();
             } else {
