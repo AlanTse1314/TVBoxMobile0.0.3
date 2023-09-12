@@ -1,4 +1,4 @@
-package com.pocket.zxpa;
+package com.github.tvbox.osc.base;
 
 import android.content.Context;
 import android.content.res.Resources;
