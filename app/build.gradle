@@ -18,12 +18,8 @@ android {
             }
         }
     }
-      repositories {
-          maven { url 'https://jitpack.io' } flatDir {
-              dirs'libs' 
-             }
-         }
-    }
+      
+    
     // 执行配置
     applicationVariants.all { variant ->
 
@@ -96,6 +92,12 @@ android {
     }
 }
 
+repositories {
+          maven { url 'https://jitpack.io' } flatDir {
+              dirs'libs' 
+             }
+         }
+}
 dependencies {
     api fileTree(dir: "libs", include: ["*.jar"])
 
